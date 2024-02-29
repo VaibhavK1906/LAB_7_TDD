@@ -17,6 +17,9 @@ public class App
     public static String fizzBuzz(int i){
         if(i%3 == 0)
         {
+            if(i%5 ==0){
+                return "FIZZBUZZ";
+            }
             return "FIZZ";
         }
         else if (i%5 == 0)
