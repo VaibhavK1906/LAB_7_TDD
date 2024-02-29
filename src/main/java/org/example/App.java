@@ -15,6 +15,13 @@ public class App
     }
 
     public static String fizzBuzz(int i){
-        return String.valueOf(i);
+        if(i%3 == 0)
+        {
+            return "FIZZ";
+        }
+        else
+        {
+            return String.valueOf(i);
+        }
     }
 }
