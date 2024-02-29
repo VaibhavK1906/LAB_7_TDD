@@ -19,6 +19,10 @@ public class App
         {
             return "FIZZ";
         }
+        else if (i%5 == 0)
+        {
+            return "BUZZ";
+        }
         else
         {
             return String.valueOf(i);
